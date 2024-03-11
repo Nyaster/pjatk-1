@@ -17,7 +17,6 @@ class Program
         {
             sum += i;
         }
-
         var arrLength = sum / arr.Length;
         if (arrLength == arr.Average())
         {
