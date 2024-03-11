@@ -1,9 +1,10 @@
-﻿it gnamespace Pjjatk_1;
+﻿namespace Pjjatk_1;
 
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        Console.WriteLine("mod1");
     }
 }
