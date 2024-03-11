@@ -27,4 +27,15 @@ class Program
 
         return x;
     }
+
+    static int AverageNormal(int[] arr)
+    {
+        int sum = 0;
+        foreach (var i in arr)
+        {
+            sum += i;
+        }
+
+        return sum / arr.Length;
+    }
 }
