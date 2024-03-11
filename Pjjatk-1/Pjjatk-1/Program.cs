@@ -4,9 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine("mod1");
-        Console.WriteLine("mod2");
-        Console.WriteLine("mod3");
+        int[] tbl = { 1, 2, 3, 4, 5 };
+        var max = tbl.Max();
+        Console.WriteLine(max);
     }
 }
