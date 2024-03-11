@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         int[] tbl = { 1, 2, 3, 4, 5 };
+        int[] hotfix = { 2, 3, 4, 5, 5 };
         var max = tbl.Max();
         Console.WriteLine(AverageFromArr(tbl));
     }
@@ -17,6 +18,9 @@ class Program
     static int MaxIntFromArr(int[] arr)
     {
         int x = 0;
+        //
+        //To do something
+        //
         foreach (var i in arr)
         {
             if (x < i)
