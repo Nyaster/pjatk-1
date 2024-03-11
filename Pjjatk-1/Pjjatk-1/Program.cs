@@ -11,7 +11,13 @@ class Program
 
     static double AverageFromArr(int[] arr)
     {
-        return arr.Average();
+        int sum = 0;
+        foreach (var i in arr)
+        {
+            sum += i;
+        }
+
+        return sum / arr.Length;
     }
 
     static int MaxIntFromArr(int[] arr)
