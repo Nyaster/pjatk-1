@@ -6,6 +6,11 @@ class Program
     {
         int[] tbl = { 1, 2, 3, 4, 5 };
         var max = tbl.Max();
-        Console.WriteLine(max);
+        Console.WriteLine(AverageFromArr(tbl));
+    }
+
+    static double AverageFromArr(int[] arr)
+    {
+        return arr.Average();
     }
 }
