@@ -13,4 +13,18 @@ class Program
     {
         return arr.Average();
     }
+
+    static int MaxIntFromArr(int[] arr)
+    {
+        int x = 0;
+        foreach (var i in arr)
+        {
+            if (x < i)
+            {
+                x = i;
+            }
+        }
+
+        return x;
+    }
 }
