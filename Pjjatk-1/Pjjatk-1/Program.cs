@@ -12,6 +12,17 @@ class Program
 
     static double AverageFromArr(int[] arr)
     {
+        int sum = 0;
+        foreach (var i in arr)
+        {
+            sum += i;
+        }
+
+        var arrLength = sum / arr.Length;
+        if (arrLength == arr.Average())
+        {
+            return arrLength;
+        }
         return arr.Average();
     }
 
