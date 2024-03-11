@@ -6,5 +6,6 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine("mod1");
+        Console.WriteLine("mod2");
     }
 }
